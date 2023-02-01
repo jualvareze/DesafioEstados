@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App container">
-      <h1>hola</h1>
+      <h1>Desafio Estados</h1>
       <Mensaje mensaje={mensajeStatus} tipo={tipoMensaje} display={displayAlert}></Mensaje>
       <form onSubmit={validar}>
         <div className='mb-3'>
